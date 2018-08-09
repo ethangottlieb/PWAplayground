@@ -32,3 +32,8 @@ function johanClickFunction(){
     console.log("fuck no");
     window.location.href="anotherPhis.html";
 }
+
+function jeffStuff(){
+  const element = React.createElement('h1', null, 'pwned');
+  ReactDOM.render(element, document.getElementById('square'));
+}
