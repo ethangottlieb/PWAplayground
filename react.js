@@ -11,6 +11,7 @@ function tick() {
       {
       name= "Ethan";
       }
+      else
             {
       name= "Jeff";
       }
