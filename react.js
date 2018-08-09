@@ -12,14 +12,13 @@ function tick() {
       name= "Ethan";
       }
       else
-            {
+        {
       name= "Jeff";
       }
-        var text = document.getElementById('root').textContent;
   const element = (
     <div>
       <h1>Hello, world!</h1>
-      <h2>It is {name} {text}.</h2>
+      <h2>It is {name}.</h2>
     </div>
   );
 
