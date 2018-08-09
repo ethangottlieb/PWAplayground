@@ -1,13 +1,12 @@
 function tick() {
   var name = "";
-  var time = new Date().toLocaleTimeString();
+  var time = new Date().getSeconds();
   console.log(time);
-  console.log(time.charAt(12) % 2);
-  if (time.charAt(12) % 3 == 0)
+  if (time % 3 == 0)
       {
       name = "Johan";
       }
-      else if (time.charAt(12) % 3 == 1)
+      else if (time % 3 == 1)
       {
       name= "Ethan";
       }
@@ -15,12 +14,7 @@ function tick() {
         {
       name= "Jeff";
       }
-  const element = (
-    <div>
-      <h1>Hello, world!</h1>
-      <h2>It is {name}.</h2>
-    </div>
-  );
+  const element = React.createElement('h1', null, name);
 
   // highlight-next-line
   ReactDOM.render(element, document.getElementById('root'));
