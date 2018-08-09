@@ -27,3 +27,8 @@ function ethanClickFunction(){
     console.log("fuck yeah");
     window.location.href="phising.html";
 }
+
+function johanClickFunction(){
+    console.log("fuck no");
+    window.location.href="anotherPhis.html";
+}
