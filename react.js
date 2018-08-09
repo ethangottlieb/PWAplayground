@@ -27,3 +27,8 @@ function ethanClickFunction(){
     console.log("fuck yeah");
     window.location.href="phising.html";
 }
+
+function jeffStuff(){
+  const element = React.createElement('h1', null, 'pwned');
+  ReactDOM.render(element, document.getElementById('square'));
+}
